@@ -1,0 +1,9 @@
+= Beispiel-Dokumentation mit AsciiDoc 
+Vorname Nachname <email> 
+1.0, 01.09.2019 
+:toc: 
+:toc-title: Inhaltsverzeichnis
+// Platzhalter für weitere Dokumenten-Attribute 
+
+== Einführung
+Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
