@@ -7,3 +7,24 @@ Vorname Nachname <email>
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
+
+== Kennenlernen der Syntax
+
+Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
+
+=== Listen
+
+.Beispiel: unsortierte Liste 
+* West wood maze
+** Maze heart
+*** Reflection pool
+** Secret exit
+** ...
+* Untracked file in git repository
+
+.Beispiel: sortierte Liste
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
