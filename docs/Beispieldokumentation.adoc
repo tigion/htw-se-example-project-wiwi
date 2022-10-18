@@ -28,3 +28,17 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .. Step 2a
 .. Step 2b
 . Step 3
+
+=== Tabellen und Textformatierung
+
+[cols="1,1,1"]
+|===
+| Formatierung | Syntax | Beschreibung
+
+| *bold* | `+*bold*+` | fetter Text
+
+| _italic_
+| `+_italic_+`
+| kursiver Text
+
+|=== 
