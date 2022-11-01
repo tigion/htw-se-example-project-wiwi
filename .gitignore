@@ -1,0 +1,10 @@
+# ignore unwanted files
+*~
+.DS_Store
+
+# ignore special folder '.asciidoctor'
+.asciidoctor/
+
+# ignore generated files
+docs/*.html
+docs/*.pdf
