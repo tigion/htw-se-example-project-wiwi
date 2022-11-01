@@ -34,6 +34,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 === Tabellen und Textformatierung
 
 .Formatierung von Text
+[#table01]
 [cols="^1,^1,3"]
 |===
 | Formatierung         | Syntax                  | Beschreibung
@@ -50,6 +51,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 === Quellcode
 
 .C-Beispiel Hello World
+[#code01]
 [source, c]
 ----
 #include <stdio.h>
@@ -63,5 +65,16 @@ int main(int argc, char* argv[])
 
 === Bilder
 
-.Testbild1
-image::test.png[Testbild1]
+.Testbild 1
+[#img1]
+image::test.png[Testbild 1]
+
+=== Verweise
+
+* Überschrift: <<Quellcode>>
+* Siehe: <<table01>>
+* Siehe: <<img1, Bild 01>>
+
+* Siehe <<img1>> oder <<Tabellen und Textformatierung>> oder <<Bilder>>
+
+* Siehe Quellcodeausschnitt: <<code01>>
