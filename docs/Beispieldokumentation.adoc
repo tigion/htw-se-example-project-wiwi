@@ -1,9 +1,9 @@
-= Beispiel-Dokumentation mit AsciiDoc 
-Vorname Nachname <email> 
-1.0, 01.09.2019 
-:toc: 
+= Beispiel-Dokumentation mit AsciiDoc
+Vorname Nachname <email>
+1.0, 01.09.2019
+:toc:
 :toc-title: Inhaltsverzeichnis
-// Platzhalter für weitere Dokumenten-Attribute 
+// Platzhalter für weitere Dokumenten-Attribute
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
@@ -14,7 +14,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 === Listen
 
-.Beispiel: unsortierte Liste 
+.Beispiel: unsortierte Liste
 * West wood maze
 ** Maze heart
 *** Reflection pool
@@ -31,14 +31,16 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 === Tabellen und Textformatierung
 
-[cols="1,1,1"]
+.Formatierung von Text
+[cols="^1,^1,3"]
 |===
-| Formatierung | Syntax | Beschreibung
+| Formatierung         | Syntax                  | Beschreibung
 
-| *bold* | `+*bold*+` | fetter Text
+| *bold*               | `+*bold*+`              | fetter Text
+| _italic_             | `+_italic_+`            | kursiver Text
+| `monospace`          | `++`monospace`++`       | Text mit fester Laufweite
+| *_bolditalic_*       | `++*_bolditalic_*++`    | Text mit kombinierter Formatierung
+| **bold**__italic__   | `+**bold**__italic__+`  | Text mit Formatierung innerhalb eines Wortes
+|===
 
-| _italic_
-| `+_italic_+`
-| kursiver Text
-
-|=== 
+* Beispiel: **S**__o__ftw__a__r__e__ **__E__**ng__i__n__ee__``r__i__ng``
