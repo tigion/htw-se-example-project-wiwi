@@ -50,7 +50,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 === Quellcode
 
-.C-Beispiel Hello World
+.hello_world.c
 [#code01]
 [source, c]
 ----
@@ -78,3 +78,11 @@ image::test.png[Testbild 1]
 * Siehe <<img1>> oder <<Tabellen und Textformatierung>> oder <<Bilder>>
 
 * Siehe Quellcodeausschnitt: <<code01>>
+
+=== Includes
+
+.hello_world.c - main()
+[source, c]
+----
+include::../src/hello_world.c[lines=3..7]
+----
