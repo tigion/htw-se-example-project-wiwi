@@ -4,6 +4,7 @@ Vorname Nachname <email>
 :toc:
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: rouge
+:imagesdir: images
 // Platzhalter für weitere Dokumenten-Attribute
 
 == Einführung
@@ -49,7 +50,6 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 === Quellcode
 
 .C-Beispiel Hello World
-[#code01]
 [source, c]
 ----
 #include <stdio.h>
@@ -60,3 +60,8 @@ int main(int argc, char* argv[])
     return 0;
 }
 ----
+
+=== Bilder
+
+.Testbild1
+image::test.png[Testbild1]
